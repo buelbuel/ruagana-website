@@ -67,7 +67,7 @@ const navigation = [
     <div class="relative">
       <div class="absolute inset-y-0 left-0 flex items-center lg:hidden">
         <!-- Mobile menu button-->
-        <DisclosureButton class="inline-flex items-center justify-center rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+        <DisclosureButton class="inline-flex items-center p-2 justify-center rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
           <span class="sr-only">Open main menu</span>
           <carbon-menu v-if="!open" class="block h-6 w-6" aria-hidden="true" />
           <carbon-close v-else class="block h-6 w-6" aria-hidden="true" />

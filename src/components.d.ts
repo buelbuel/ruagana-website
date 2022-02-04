@@ -12,6 +12,7 @@ declare module 'vue' {
     CarbonMenu: typeof import('~icons/carbon/menu')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
+    CarbonWarning: typeof import('~icons/carbon/warning')['default']
     Footer: typeof import('./components/Footer.vue')['default']
     Navigation: typeof import('./components/Navigation.vue')['default']
     README: typeof import('./components/README.md')['default']
