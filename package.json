@@ -12,6 +12,7 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.4.3",
     "@vueuse/core": "^7.5.4",
     "@vueuse/head": "^0.7.5",
     "nprogress": "^0.2.0",
@@ -30,6 +31,7 @@
     "@types/nprogress": "^0.2.0",
     "@vitejs/plugin-vue": "^2.1.0",
     "@vue/test-utils": "^2.0.0-rc.18",
+    "@windicss/plugin-scrollbar": "^1.2.3",
     "critters": "^0.0.16",
     "cross-env": "^7.0.3",
     "cypress": "^9.3.1",

@@ -6,6 +6,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  @apply scrollbar scrollbar-thumb-gray-800 scrollbar-track-gray-200;
 }
 
 html.dark {
@@ -36,7 +37,8 @@ html.dark {
 }
 
 .icon-btn,
-.nav-btn {
+.nav-btn,
+.wiki-nav-btn {
   @apply cursor-pointer select-none
     opacity-75 transition duration-200 ease-in-out
     hover:opacity-100 hover:text-teal-600;
