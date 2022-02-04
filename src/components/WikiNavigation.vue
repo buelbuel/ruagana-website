@@ -84,7 +84,7 @@ const navigation = [
 
     <DisclosurePanel class="sm:hidden">
       <div class="py-6 space-y-2 flex flex-col">
-        <router-link v-for="item in navigation" :key="item.name" :to="item.to" :class="[item.level = 1 ? 'ml-0' : 'ml-1']">
+        <router-link v-for="item in navigation" :key="item.name" :to="item.to" :class="[item.level == '0' ? 'pl-0' : 'pl-6']" :title="item.name">
           {{ item.name }}
         </router-link>
       </div>

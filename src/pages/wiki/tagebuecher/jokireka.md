@@ -6,9 +6,9 @@ title: Jokireka
 
 ## 2. Warthug Webarr 417
 
-Sinnako Hafen, endlich. Die Schaukelei auf dem altersschwachen Kahn ist überstanden. Hm, "Schänke zum Gaffelsegel"; Hafenspelunken machen doch immer wieder den gleichen, runtergekommenen Eindruck. In der Stadt werde ich meiner Nase folgen, lass es gut sein für jetzt.
+Sinnako Hafen, endlich. Die Schaukelei auf dem altersschwachen Kahn ist überstanden. Hm, `Schänke zum Gaffelsegel`; Hafenspelunken machen doch immer wieder den gleichen, runtergekommenen Eindruck. In der Stadt werde ich meiner Nase folgen, lass es gut sein für jetzt.
 
-Ja, der Markt. Ich überlege immer noch, ob es richtig war, Zidanao mitzunehmen auf die lange Reise. Mit einem Mulyak nachher durch die trockenheiße Tarkanwüste watscheln? Gut, Webarr neigt sich dem Ende, übermorgen ist schon Festtag. Die Sonne brennt nicht mehr ganz so heiß. Dennoch. Sowas kann allenfalls gut gehen, wenn kein Sturm aufkommt, wenn ich als Kreidegebirglerin die Oasen nicht verfehle. Das sind genau 2 "wenn" zu viel. Einen Wasserträger soll ich wohl verdingen. Ortskundig muss er sein. Meine Ruang werden nur reichen, wenn ich meinen treuen Zidanao verkaufe... Ja richtig, wir nähern uns dem Markt. Ich mag viel lieber an die gewohnte Betriebsamkeit denken als an die anstehende Entscheidung... Vielleicht. Wir werden sehen.
+Ja, der Markt. Ich überlege immer noch, ob es richtig war, Zidanao mitzunehmen auf die lange Reise. Mit einem Mulyak nachher durch die trockenheiße Tarkanwüste watscheln? Gut, Webarr neigt sich dem Ende, übermorgen ist schon Festtag. Die Sonne brennt nicht mehr ganz so heiß. Dennoch. Sowas kann allenfalls gut gehen, wenn kein Sturm aufkommt, wenn ich als Kreidegebirglerin die Oasen nicht verfehle. Das sind genau 2 `wenn` zu viel. Einen Wasserträger soll ich wohl verdingen. Ortskundig muss er sein. Meine Ruang werden nur reichen, wenn ich meinen treuen Zidanao verkaufe... Ja richtig, wir nähern uns dem Markt. Ich mag viel lieber an die gewohnte Betriebsamkeit denken als an die anstehende Entscheidung... Vielleicht. Wir werden sehen.
 
 Nun gut. Unzufrieden will ich nicht sein. Viel Pechblende habe ich nicht bei mir. Doch wenn ich einem wirklich übelgesonnenen Schattenwandler begegne, das für unsereins viel zu schädliche Zeug wird einen unglaublich hohen Preis erzielen können. Wenn...
 

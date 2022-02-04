@@ -1,7 +1,3 @@
-<script setup lang="ts">
-//
-</script>
-
 <template>
   <div class="text-center">
     <!-- You can use Vue components inside markdown -->
