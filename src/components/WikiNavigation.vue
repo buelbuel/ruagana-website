@@ -2,7 +2,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 
 const navigation = [
-  { name: 'Ruagana', to: '/wiki/ruagana', level: '0' },
   { name: 'Legende', to: '/wiki/legende', level: '0' },
   { name: 'Tagebücher', to: '/wiki/tagebuecher/start', level: '0' },
   { name: 'Jokireka', to: '/wiki/tagebuecher/jokireka', level: '1' },
@@ -11,13 +10,14 @@ const navigation = [
   { name: 'Sarbanktschas', to: '/wiki/tagebuecher/sarbanktschas', level: '1' },
   { name: 'Ukaipnaus', to: '/wiki/tagebuecher/ukaipnaus', level: '1' },
   { name: 'Kunchai', to: '/wiki/tagebuecher/kunchai', level: '1' },
-  { name: 'Das Spiel', to: '/wiki/das-spiel', level: '0' },
-  { name: 'Götterwelt', to: '/wiki/goetterwelt', level: '1' },
-  { name: 'Arukan', to: '/wiki/arukan', level: '1' },
-  { name: 'Der Kalender', to: '/wiki/der-kalender', level: '1' },
-  { name: 'Aufgaben, Rätsel', to: '/wiki/aufgaben-raetsel', level: '1' },
-  { name: 'Gesinnungspfad', to: '/wiki/gesinnungspfad', level: '1' },
-  { name: 'Weltkarte', to: '/wiki/weltkarte', level: '1' },
+  { name: 'Das Spiel', to: '/wiki/das-spiel/start', level: '0' },
+  { name: 'Götterwelt', to: '/wiki/das-spiel/goetterwelt', level: '1' },
+  { name: 'Arukan', to: '/wiki/das-spiel/arukan', level: '1' },
+  { name: 'Der Kalender', to: '/wiki/das-spiel/der-kalender', level: '1' },
+  { name: 'Aufgaben, Rätsel', to: '/wiki/das-spiel/aufgaben-raetsel', level: '1' },
+  { name: 'Gesinnungspfad', to: '/wiki/das-spiel/gesinnungspfad', level: '1' },
+  { name: 'Ruagana', to: '/wiki/das-spiel/ruagana', level: '1' },
+  { name: 'Weltkarte', to: '/wiki/das-spiel/weltkarte', level: '1' },
   { name: 'Völker', to: '/wiki/voelker', level: '0' },
   { name: 'Giftnickel', to: '/wiki/giftnickel', level: '1' },
   { name: 'Elder', to: '/wiki/elder', level: '1' },
@@ -67,7 +67,11 @@ const navigation = [
     <div class="relative">
       <div class="absolute inset-y-0 left-0 flex items-center lg:hidden">
         <!-- Mobile menu button-->
-        <DisclosureButton class="inline-flex items-center p-2 justify-center rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+        <DisclosureButton
+          class="inline-flex items-center p-2 justify-center rounded-md
+          text-gray-400 hover:text-white hover:bg-gray-700
+          focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+        >
           <span class="sr-only">Open main menu</span>
           <carbon-menu v-if="!open" class="block h-6 w-6" aria-hidden="true" />
           <carbon-close v-else class="block h-6 w-6" aria-hidden="true" />
@@ -75,7 +79,14 @@ const navigation = [
       </div>
       <div class="hidden lg:block">
         <div class="flex flex-col space-y-2">
-          <router-link v-for="item in navigation" :key="item.name" class="wiki-nav-btn" :class="[item.level == '0' ? 'pl-0' : 'pl-6']" :to="item.to" :title="item.name">
+          <router-link
+            v-for="item in navigation"
+            :key="item.name"
+            class="wiki-nav-btn"
+            :class="[item.level == '0' ? 'pl-0' : 'pl-6', $route.path == item.to ? 'text-teal-500' : '' ]"
+            :to="item.to"
+            :title="item.name"
+          >
             {{ item.name }}
           </router-link>
         </div>
@@ -84,7 +95,13 @@ const navigation = [
 
     <DisclosurePanel class="lg:hidden">
       <div class="py-6 space-y-2 flex flex-col">
-        <router-link v-for="item in navigation" :key="item.name" :to="item.to" :class="[item.level == '0' ? 'pl-0' : 'pl-6']" :title="item.name">
+        <router-link
+          v-for="item in navigation"
+          :key="item.name"
+          :to="item.to"
+          :class="[item.level == '0' ? 'pl-0' : 'pl-6']"
+          :title="item.name"
+        >
           {{ item.name }}
         </router-link>
       </div>

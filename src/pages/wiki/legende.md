@@ -26,3 +26,12 @@ Seid tapfer, Ihr Wenigen, so Ihr ausersehen seid, die Geschicke zu balancieren. 
 
 _In Frieden,_<br />
 _Achipaolu (Chronist)_
+
+<div class="grid grid-cols-2 gap-4">
+		<button class="col-span-1 text-center btn" disabled>
+			<carbon-arrow-left />
+		</button>
+		<button @click="$router.push('tagebuecher/start')" class="col-span-1 text-center btn">
+			Tagebücher <carbon-arrow-right />
+		</button>
+</div>

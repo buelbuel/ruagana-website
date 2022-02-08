@@ -33,3 +33,12 @@ Ja, mein treuer Zidanao. Das Zeug voraus und... na ja, so langsam auch zwischen 
 _Jokireka_<br />
 Händlerin aus Sunai<br />
 unterwegs zu Portokan am Bittersee in der Tarkan-Wüste
+
+<div class="grid grid-cols-2 gap-4">
+		<button @click="$router.push('start')" class="col-span-1 text-center btn">
+			<carbon-arrow-left class="" /> Tagebücher
+		</button>
+		<button @click="$router.push('lukanies')" class="col-span-1 text-center btn">
+			Lukanies <carbon-arrow-right />
+		</button>
+</div>
